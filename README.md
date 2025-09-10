@@ -75,16 +75,6 @@ docker run -p 8501:8501 digit-ann-app
 
 ---
 
-## ☁️ Cloud Deployment
-You can deploy this app using:
-- [Render](https://render.com/)
-- [Railway](https://railway.app/)
-- [Google Cloud Run](https://cloud.google.com/run)
-
-Refer to platform-specific guides for Docker-based deployment.
-
----
-
 ## 🖼️ Screenshots
 Coming soon: Add screenshots of the app UI and predictions.
 
