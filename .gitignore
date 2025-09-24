@@ -1,0 +1,41 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Optional: large model files (if you want to avoid pushing big .h5 files)
+# best_model.h5
+# best_model_sparse.h5
+
+# IDE-specific files (VS Code)
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.swp
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coverage
+*.py,cover
+.hypothesis/
+.pytest_cache/

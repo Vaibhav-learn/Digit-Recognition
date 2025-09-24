@@ -1,8 +1,13 @@
-numpy
-matplotlib
-tensorflow
-pandas
-scikit-learn
-pillow
-streamlit
-streamlit-drawable-canvas
+# Streamlit framework
+streamlit==1.26.0
+
+# Neural network / deep learning
+tensorflow-cpu==2.17.0
+
+# Drawing canvas for user input
+streamlit-drawable-canvas==0.10.0
+
+# Data manipulation & visualization
+numpy==1.26.4
+matplotlib==3.9.2
+pillow==10.0.1
