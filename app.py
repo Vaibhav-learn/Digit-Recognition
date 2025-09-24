@@ -13,10 +13,10 @@ uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert('L')  # Convert to grayscale
-    image = ImageOps.invert(image)                  # Invert colors (white on black)
+    # image = ImageOps.invert(image)                  # Invert colors (white on black)
     image = image.resize((28, 28))                  # Resize to 28x28
     img_array = np.array(image) / 255.0             # Normalize pixel values
-    img_array = img_array.reshape(1, 28, 28, 1)      # Reshape for model input
+    img_array = img_array.reshape(1, 28, 28)      # Reshape for model input
 
     st.image(image, caption="Uploaded Digit", width=150)
     prediction = model.predict(img_array)
