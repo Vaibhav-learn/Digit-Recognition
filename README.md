@@ -1,90 +1,37 @@
-# 🧠 Digit Recognition Web App using ANN + Docker + Cloud Deployment
+# 🧠 Digit Recognition App
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![Docker](https://img.shields.io/badge/Docker-Enabled-green)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-## 📌 Overview
-This project is a web-based digit recognition system built using an Artificial Neural Network (ANN) trained on the MNIST dataset. The app is developed with Streamlit and containerized using Docker for easy deployment. Optionally, it can be deployed to cloud platforms like Render, Railway, or Google Cloud Run.
-
----
-
-## 🎥 Demo
-Coming soon: [Live Demo Link](#)
-
----
+A simple Streamlit web app that uses a Artificial Neural Network (ANN) to recognize handwritten digits from the MNIST dataset.
 
 ## 🚀 Features
-- 🎨 Draw or upload digit images
-- 🔍 Real-time digit prediction using ANN
-- 🐳 Dockerized for portability
-- ☁️ Optional cloud deployment
-- 📊 Clean UI with Streamlit
-
----
+- Upload a 28x28 grayscale image of a digit
+- Predict the digit using a trained ANN model
+- Display the uploaded image and prediction result
 
 ## 🛠️ Tech Stack
-- **Python 3.9**
-- **TensorFlow / Keras** – ANN model
-- **Streamlit** – Web interface
-- **Docker** – Containerization
+- Python
+- TensorFlow & Keras
+- Streamlit
+- NumPy & Pillow
 
----
+## 📦 Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vaibhav-learn/Digit-Recognition.git
+   cd Digit-Recognition
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the app:
+   ```bash
+   streamlit run app.py
+   ```
 
-## 📁 Project Structure
-```
-digit-recognition-ann/
-│
-├── model/
-│   └── ann_model.h5
-├── app/
-│   ├── app.py
-│   ├── utils.py
-│   └── assets/
-├── Dockerfile
-├── requirements.txt
-└── README.md
-```
+## 📸 Usage
+- Upload a digit image (28x28 grayscale)
+- View the predicted digit on the screen
 
----
-
-## ⚙️ Installation
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/digit-recognition-ann.git
-cd digit-recognition-ann
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app/app.py
-```
-
----
-
-## 🐳 Docker Usage
-```bash
-# Build Docker image
-docker build -t digit-ann-app .
-
-# Run Docker container
-docker run -p 8501:8501 digit-ann-app
-```
-
----
-
-## 🖼️ Screenshots
-Coming soon: Add screenshots of the app UI and predictions.
-
----
-
-## 📄 License
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-**Vaibhav Balwant Singh**  
-B.Tech CSE (AI/ML)
+## 👤 Author
+**Vaibhav**  
+[GitHub Profile](https://github.com/Vaibhav-learn)
